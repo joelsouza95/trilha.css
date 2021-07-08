@@ -1,0 +1,345 @@
+/* line 9, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\000039}}
+.main-timeline {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+/* line 13, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000313}}
+.main-timeline:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 18, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000318}}
+.main-timeline .timeline {
+  width: 50.1%;
+  padding: 20px 0 20px 100px;
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+/* line 25, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000325}}
+.main-timeline .timeline:before,
+.main-timeline .timeline:after {
+  content: '';
+  background: #d06503;
+  height: 100%;
+  width: 28px;
+  position: absolute;
+  left: -11px;
+  top: 0;
+}
+/* line 35, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000335}}
+.main-timeline .timeline:after {
+  background: #d06503;
+  height: 18px;
+  width: 200px;
+  box-shadow: 0 0 10px -5px #000000;
+  transform: translateY(-50%);
+  top: 50%;
+  left: -90px;
+}
+/* line 44, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000344}}
+.main-timeline .timeline-content {
+  color: #517d82;
+  background-color: #d06503;
+  padding: 0 0 0 80px;
+  box-shadow: 0 0 20px -10px #000000;
+  border-radius: 10px;
+  display: block;
+}
+/* line 52, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000352}}
+.main-timeline .timeline-content:hover {
+  color: #517d82;
+  text-decoration: none;
+}
+/* line 56, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000356}}
+.main-timeline .timeline-icon {
+  color: #fff;
+  background-color: #d06503;
+  font-size: 35px;
+  text-align: center;
+  line-height: 62px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  z-index: 1;
+}
+/* line 71, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000371}}
+.main-timeline .timeline-year {
+  color: #517d82;
+  background-color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 93px;
+  height: 113px;
+  width: 113px;
+  border: 6px solid #d06503;
+  box-shadow: 0 0 10px -5px #000000;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  z-index: 1;
+}
+/* line 89, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000389}}
+.main-timeline .inner-content {
+  background-color: #fff;
+  padding: 10px;
+}
+/* line 93, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000393}}
+.main-timeline .title {
+  color: #d06503;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+/* line 99, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\0000399}}
+.main-timeline .description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+/* line 104, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003104}}
+.main-timeline .timeline:nth-child(even) {
+  padding: 20px 100px 20px 0;
+  float: left;
+}
+/* line 108, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003108}}
+.main-timeline .timeline:nth-child(even):before {
+  left: auto;
+  right: -14.5px;
+}
+/* line 112, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003112}}
+.main-timeline .timeline:nth-child(even):after {
+  left: auto;
+  right: -90px;
+}
+/* line 116, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003116}}
+.main-timeline .timeline:nth-child(even) .timeline-content {
+  padding: 0 80px 0 0;
+}
+/* line 117, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003117}}
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+  left: auto;
+  right: -100px;
+}
+/* line 121, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003121}}
+.main-timeline .timeline:nth-child(even) .timeline-year {
+  left: auto;
+  right: 50px;
+}
+/* line 125, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003125}}
+.main-timeline .timeline:nth-child(4n+2):before,
+.main-timeline .timeline:nth-child(4n+2):after {
+  background: #e9931a;
+}
+/* line 129, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003129}}
+.main-timeline .timeline:nth-child(4n+2) .timeline-content,
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon {
+  background-color: #e9931a;
+}
+/* line 133, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003133}}
+.main-timeline .timeline:nth-child(4n+2) .timeline-year {
+  border-color: #e9931a;
+}
+/* line 134, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003134}}
+.main-timeline .timeline:nth-child(4n+2) .title {
+  color: #e9931a;
+}
+/* line 135, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003135}}
+.main-timeline .timeline:nth-child(4n+3):before,
+.main-timeline .timeline:nth-child(4n+3):after {
+  background: #166ba2;
+}
+/* line 139, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003139}}
+.main-timeline .timeline:nth-child(4n+3) .timeline-content,
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon {
+  background-color: #166ba2;
+}
+/* line 143, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003143}}
+.main-timeline .timeline:nth-child(4n+3) .timeline-year {
+  border-color: #166ba2;
+}
+/* line 144, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003144}}
+.main-timeline .timeline:nth-child(4n+3) .title {
+  color: #166ba2;
+}
+/* line 145, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003145}}
+.main-timeline .timeline:nth-child(4n+4):before,
+.main-timeline .timeline:nth-child(4n+4):after {
+  background: #1b3647;
+}
+/* line 149, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003149}}
+.main-timeline .timeline:nth-child(4n+4) .timeline-content,
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon {
+  background-color: #1b3647;
+}
+/* line 153, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003153}}
+.main-timeline .timeline:nth-child(4n+4) .timeline-year {
+  border-color: #1b3647;
+}
+/* line 154, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003154}}
+.main-timeline .timeline:nth-child(4n+4) .title {
+  color: #1b3647;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 161, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003161}}
+  .main-timeline .timeline:before {
+    left: -12.5px;
+  }
+  /* line 162, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003162}}
+  .main-timeline .timeline:nth-child(even):before {
+    right: -14px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  /* line 165, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003165}}
+  .main-timeline .timeline:before {
+    left: -12.5px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 168, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003168}}
+  .main-timeline .timeline,
+  .main-timeline .timeline:nth-child(even) {
+    width: 100%;
+    padding: 20px 0 20px 37px;
+  }
+  /* line 173, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003173}}
+  .main-timeline .timeline:before {
+    left: 0;
+  }
+  /* line 174, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003174}}
+  .main-timeline .timeline:nth-child(even):before {
+    right: auto;
+    left: 0;
+  }
+  /* line 178, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003178}}
+  .main-timeline .timeline:after,
+  .main-timeline .timeline:nth-child(even) .timeline:after {
+    display: none;
+  }
+  /* line 182, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003182}}
+  .main-timeline .timeline-icon,
+  .main-timeline .timeline:nth-child(even) .timeline-icon {
+    left: 0;
+    display: none;
+  }
+  /* line 187, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003187}}
+  .main-timeline .timeline-year,
+  .main-timeline .timeline:nth-child(even) .timeline-year {
+    height: 75px;
+    width: 75px;
+    line-height: 60px;
+    font-size: 25px;
+    left: 1px;
+  }
+  /* line 195, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003195}}
+  .main-timeline .timeline-content,
+  .main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 0 0 0 40px;
+  }
+}
+/* line 203, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003203}}
+#dicas #dicastexto {
+  margin-top: 20px;
+}
+/* line 205, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003205}}
+#dicas #dicastexto ul,
+#dicas #dicastexto li {
+  background-color: #efefea;
+}
+/* line 209, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003209}}
+#dicas #dicastexto li:nth-child(1) {
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+/* line 213, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003213}}
+#dicas #dicastexto li:nth-child(5) {
+  -webkit-border-radius: 0px 0px 10px 10px ;
+  border-radius: 0px 0px 10px 10px ;
+}
+/* line 220, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003220}}
+#dicas .videodica {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+/* line 224, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003224}}
+#dicas .titulodicas {
+  display: block-inline;
+  font-size: 0.8em!important;
+  color: #e9931a !important;
+  font-weight: 700!important;
+  text-transform: uppercase;
+}
+/* line 230, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003230}}
+#dicas .titulodicas i {
+  font-size: 1.3em!important;
+}
+/* line 235, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003235}}
+#dicas .textodicas {
+  display: block!important;
+  font-size: 1em!important;
+  color: #166ba2 !important;
+  text-justify: initial;
+}
+/* line 241, E:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\WORK\FAMETRO\www\sandboxeadfametroedubr\blocks\trilhadadisciplina\style\less\default\.less}line{font-family:\00003241}}
+#dicas .linkdicas {
+  padding-top: 15px;
+  float: right;
+}
